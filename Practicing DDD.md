@@ -38,6 +38,13 @@ The  basic philosophy of the primacy of domain terminology can be distributed ac
 > Any of our software systems (like a web service or web app) that operate as concrete instances in the Real World are considered Bounded Contexts
 > one of the goals of Domain-Driven Designs is to have a one-to-one mapping from a Subdomain to a Bounded Context.
 
+#### Ubiquitous Language
+
+> Words often have different meanings in different contexts
+>
+> The word “meter” had different meanings in different parts of the organization. In one department, it referred to the connection between the grid and a location. Others understood “meter” as the connection between the grid and the customer, or, of course, a physical meter attached to a house to measure electrical consumption.
+>
+> Different stakeholders might represent the same business entity in different models. For example, an Advertising Campaign is a complex entity with many rules and invariants for campaign managers; but for sales agents, an Advertising Campaign is merely a data structure that describes a subset of its metadata. Those are two different models, and thus belong to two different Bounded Contexts.
 ### Challenges
 
 ---
