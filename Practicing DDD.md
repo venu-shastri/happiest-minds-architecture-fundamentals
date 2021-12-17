@@ -28,7 +28,15 @@ The  basic philosophy of the primacy of domain terminology can be distributed ac
 
   > If you find that your code is talking about two different things—for example, the domain solution and the technical implementation—separate those components to keep the subdomains separate. This strategy tends to produce classes with single responsibilities and a terse, focused vocabulary. Put "translators" at the boundaries between subdomains to keep them from relying on each other's structures unnecessarily, and to prevent the meaning of domain terms from becoming ambiguous.
 
+#### Bounded Context
 
+---
+
+> A bounded context is a set of tiny services (API, Background Jobs, Serverless Functions, etc) that work together to deliver requirements related to a sub-domain of a large software
+> Technically speaking, the Bounded Context in DDD-speak is a specific boundary within your domain that your Glossary from your Ubiquitous Language can only apply – the idea being that different Subdomains may have competing or conflicting definitions of terms
+> A Bounded Context is a system that fulfills the goals of the business in the real world.
+> Any of our software systems (like a web service or web app) that operate as concrete instances in the Real World are considered Bounded Contexts
+> one of the goals of Domain-Driven Designs is to have a one-to-one mapping from a Subdomain to a Bounded Context.
 
 ### Challenges
 
