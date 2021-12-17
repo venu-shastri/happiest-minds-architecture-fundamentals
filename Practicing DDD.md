@@ -44,3 +44,8 @@ The  basic philosophy of the primacy of domain terminology can be distributed ac
 - Domain Drive Design By Eric Evans , 2003
 - Patterns, Principles and Practices Of Domain Driven Design By Scott and Nick Tune 2015
 - VirtualDDD Meetup (virtualDDD.com)
+- https://hackernoon.com/microservices-bounded-context-cohesion-what-do-they-have-in-common-1107b70342b3
+- https://vladikk.com/2016/04/05/tackling-complexity-ddd/
+- https://hackernoon.com/microservices-bounded-context-cohesion-what-do-they-have-in-common-1107b70342b3
+- https://blog.carbonfive.com/2016/10/04/ubiquitous-language-the-joy-of-naming/
+- https://blog.carbonfive.com/2016/11/01/bring-clarity-to-your-monolith-with-bounded-contexts
