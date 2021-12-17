@@ -101,3 +101,56 @@ The high-level requirements for the new Risk System are as follows.
  Distribute the report to the business users before the start of the next trading day (9am) in
 
 Singapore. Provide a way for a subset of the business users to configure and maintain the external parameters used by the risk calculations.
+Additional Requirements with Financial Risk System
+
+a.    Risk reports must be generated before 9am the following business day in Singapore.
+
+b.    The system must be able to cope with trade volumes for the next 5 years.
+
+c.    The Trade Data System export includes approximately 5000 trades now and it is anticipated that there will be slow but steady growth of 10 additional trades per day
+
+d.    The Reference Data System export includes approximately 20,000 counterparties and growth will be negligible
+
+e.    There are 40-50 business users around the world that need access to the report.
+
+f.     Risk reports should be available to users 24x7, but a small amount of downtime (less than 30 minutes per day) can be tolerated
+
+g.    Manual failover is sufficient, provided that the availability targets can be met.
+
+h.    This system must follow bank policy that states system access is restricted to authenticated and authorized users only
+
+i.     Reports must only be distributed to authorized users
+
+j.     Only a subset of the authorized users are permitted to modify the parameters used in the risk calculations
+
+k.    Although desirable, there are no single sign-on requirements (e.g. integration with Active Directory, LDAP, etc)
+
+l.     All access to the system and reports will be within the confines of the bank’s global network.
+
+m.   The following events must be recorded in the system audit logs
+
+​                                i.   Report generation
+
+​                               ii.   Modification of risk calculation parameters
+
+​                              iii.   It must be possible to understand the input data that was used in calculating risk.
+
+n.    The system should take appropriate steps to recover from an error if possible, but all errors should be logged
+
+o.    Errors preventing a counterparty risk calculation being completed should be logged and the process should continue
+
+p.    All user interfaces will be presented in English only
+
+q.    All reports will be presented in English only
+
+r.    All trading values and risk figures will be presented in US dollars only
+
+s.    A Simple Message trap should be sent to the bank’s Central Monitoring Service in the following circumstances
+
+​                                i.   When there is a fatal error with a system component
+
+​                               ii.   When reports have not been generated before 9am Singapore time
+
+t.    Input files used in the risk calculation process must be retained for 1 year
+
+u.    Interfaces with existing data systems should conform to and use existing data formats.
