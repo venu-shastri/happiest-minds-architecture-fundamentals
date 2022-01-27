@@ -154,3 +154,22 @@ s.    A Simple Message trap should be sent to the bank’s Central Monitoring Se
 t.    Input files used in the risk calculation process must be retained for 1 year
 
 u.    Interfaces with existing data systems should conform to and use existing data formats.
+
+### Case Study : 4
+
+---
+
+NewYork City Corporation (NCC) is facing budget shortfalls and needs to cut costs. NCC Mayor has hired your team to streamline the NCC's Office of Management and Budget (OMB). When a NCC employee needs to purchase something for more than a few thousand INR, the OMB issues a Request for Proposals (RFP) in the local newspaper. Businesses bid on the RFPs and the OMB awards a contract based on the competitiveness of the bid and other factors. The OMB monitors more than 500 active contracts and RFPs for everything from toilet paper to medical supplies to basketballs. The OMB manages all this data in spreadsheets.
+Mayor hopes modernizing the OMB will improve a few strategic areas.
+• Over half of all RFPs have a single bid. The NCC is potentially overpaying for lower-quality services.
+• Finalizing a contract takes months. Many businesses get lost in the multistep process.
+• Publishing a new RFP takes up to 6 weeks. This process must be faster.
+
+Mayor  hired your team and team report to him, but the Office of Management and Budget receives policy direction from both the mayor and NCC council.
+
+Some local businesses rely on lawyers to navigate the Request for Proposal process. Different interaction patterns for the potential software might exist, which could influence the architecture.
+The Office of Management and Budget (OMB) sits at the center of several key user interactions, but they aren’t paying the bills. We should talk to the OMB directly. It’s possible that the mayor and city council have budgeted for a system that does not solve the OMB’s real problems
+
+There’s a small number of users, but when a user submits a question or problem system should  be able to respond quickly, within a business day. Releases happen at least once a month. Ideally, team will  ship code as it is ready. report errors.  We need to verify that the RFP index is built correctly. The verification should be automated. We need a new, permanent dev team to come up to speed quickly after the current team of contractors we’ve hired leaves
+
+When the RFP database does not respond, System should log the fault and respond with stale data within 3 seconds. A user’s searches for open RFPs and receives a list  of RFPs 99% of the time on average over the course of the year. New servers can be added during a planned maintenance window (less than 12 hours). A user sees search results within 5 seconds when  the system is at an average load of 2 searches per second. Updates to RFPs should be reflected in the application within 24 hours of the change A user-initiated update (for example, starring an Low RFP) is reflected in the system within 5 seconds. The system can handle a peak load of 100 searches Low per second with no more than a 10% dip in average response times. Data growth is expected to expand at a rate of 5% Low annually. The system should be able to grow to handle this with minimal effort.
