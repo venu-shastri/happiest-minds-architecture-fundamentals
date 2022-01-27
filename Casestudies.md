@@ -173,3 +173,61 @@ The Office of Management and Budget (OMB) sits at the center of several key user
 There’s a small number of users, but when a user submits a question or problem system should  be able to respond quickly, within a business day. Releases happen at least once a month. Ideally, team will  ship code as it is ready. report errors.  We need to verify that the RFP index is built correctly. The verification should be automated. We need a new, permanent dev team to come up to speed quickly after the current team of contractors we’ve hired leaves
 
 When the RFP database does not respond, System should log the fault and respond with stale data within 3 seconds. A user’s searches for open RFPs and receives a list  of RFPs 99% of the time on average over the course of the year. New servers can be added during a planned maintenance window (less than 12 hours). A user sees search results within 5 seconds when  the system is at an average load of 2 searches per second. Updates to RFPs should be reflected in the application within 24 hours of the change A user-initiated update (for example, starring an Low RFP) is reflected in the system within 5 seconds. The system can handle a peak load of 100 searches Low per second with no more than a 10% dip in average response times. Data growth is expected to expand at a rate of 5% Low annually. The system should be able to grow to handle this with minimal effort.
+
+### Case Study 5
+
+---
+
+Britaan is a global cheese manufacturer and they sale the cheese brand named “Good Cheese” in Germany. Over the past one year, there has been more recalls in the “Good Cheese” brand. The major reason broadcasted in the news channels and newspapers is that the cheese packets manufactured outside Germany were only recalled. Britaan’s cheese factories outside Germany don’t have stringent quality check measures compared to the Britaan’s German cheese factories. The sale of “Good Cheese” in Germany have declined drastically over the past few months as the consumers don’t have the trust about where the cheese packets were manufactured. 
+
+To regain the trust of the cheese consumers in Germany and re-establish their “Good Cheese” brand, Britaan wants to implement IT  solution. The IT solution will track the packed cheese products from the time it’s manufactured in the Britaan’s cheese factories till the time it’s delivered to the retail stores. The cheese packets reach to multiple different retail stores through the distributors. The distributors receive the cheese packets from Brittan by scanning the bar code on the cheese packets and takes the ownership of the packets with them. The retailers scans the barcode of the cheese packets from the distributors to transfer the ownership from the distributor to the retailer.
+
+ The entire jouney of ownership transfers of the cheese packets from the Britaan’s factories to the retailers are tracked on IT solution to convince the German cheese consumers that the cheese they consume is indeed manufactured in Germany.
+
+
+
+### Case Study 6
+
+---
+
+Meetup is an organization, plans to launch the Conference Management System, a new online service that will enable other companies or individuals to organize and manage their own conferences and events.
+
+The Conference Management System application is one of the first innovative online services that Meetup wants to take to market. As a startup, Meetup wants to develop and launch these services with a minimal investment in hardware and IT personnel. Meetup wants to be quick to market in order to start growing market share, and cannot afford the time to implement all of the planned functionality in the first releases. Therefore, it is important that the architecture it adopts can easily accommodate changes and enhancements with minimal impact on existing users of the system. Meetup has chosen to deploy the application on Windows Azure in order to take advantage of its ability to scale applications as demand grows
+
+Meetup plans to build an online conference management system that will enable its customers to plan and manage conferences that are held at a physical location. The system will enable Meetup’s customers to:
+
+• Manage the sale of different seat types for the conference.
+
+• Create a conference and define characteristics of that conference.
+
+The Meetup Conference Management System will be a multi-tenant, cloud-hosted application. Busi­ness customers will need to register with the system before they can create and manage their confer­ences.
+
+The business customer defines the number of seats available for the conference. The business cus­tomer may also specify events at a conference such as workshops, receptions, and premium sessions for which attendees must have a separate ticket. The business customer also defines how many seats are available for these events. The system manages the sale of seats to ensure that the conference and sub-events are not oversubscribed. This part of the system will also operate wait-lists so that if other attendees cancel, their seats can be reallocated. The system will require that the names of the attendees be associated with the purchased seats so that an on-site system can print badges for the attendees when they arrive at the conference.
+
+A business customer can create new conferences and manage information about the conference such as its name, description, and dates. The business customer can also make a conference visible on the Meetup Conference Management System website by publishing it, or hide it by unpublishing it.
+
+Additionally, the business customer defines the seat types and available quantity of each seat type for the conference.
+
+Meetup also plans to enable the business customer to specify the following characteristics of a conference:
+
+• Whether the paper submission process will require reviewers.
+
+• What the fee structure for paying Meetup will be.
+
+• Who key personnel, such as the program chair and the event planner, will be
+
+The conference management system will be hosted in the cloud; one of the reasons Meetup chose a cloud platform was its scalability and potential for elastic scalability.
+
+The market that the Meetup Conference Management System oper­ates in is very competitive, and very fast moving. In order to compete, Meetup must be able to quickly and cost effectively adapt the con­ference management system to changes in the market. This require­ment for flexibility breaks down into a number of related aspects:
+
+• Meetup must be able to evolve the system to meet new requirements and to respond to changes in the market.
+
+• The system must be able to run multiple versions of its software simultaneously in order to support customers who are in the middle of a conference and who do not wish to upgrade to a new version immediately. Other customers may wish to migrate their existing conference data to a new version of the software as it becomes available.
+
+• Meetup intends the software to last for at least five years. It must be able to accommodate significant changes over that period.
+
+• Meetup does not want the complexity of some parts of the system to become a barrier to change.
+
+• Meetup would like to be able to use different developers for different elements of the system, using cheaper developers for simpler tasks and restricting its use of more expensive and experienced developers to the more critical aspects of the system.
+
+
