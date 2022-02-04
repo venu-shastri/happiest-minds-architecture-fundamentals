@@ -86,3 +86,6 @@ the pull request.
 
 Build pipeline (CI pipeline) allows you to automate the build and test process of your application. You can setup a build pipeline so that it builds and tests the application code each time a developer commits a change to the source code.
 
+#### Examples
+-----
+![AWS Pipeline](https://github.com/venu-shastri/happiest-minds-architecture-fundamentals/blob/main/AWS%20Pipiline.JPG)
